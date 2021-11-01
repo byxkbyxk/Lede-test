@@ -20,6 +20,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collecti
 sed -i "s/OpenWrt /${Author} compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
 git clone https://github.com/sirpdboy/luci-app-advanced.git ./package/lean/luci-app-advanced
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git ./package/luci-theme-infinityfreedom
-# git clone https://github.com/destan19/OpenAppFilter.git ./package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git ./package/OpenAppFilter
 git clone https://github.com/fw876/helloworld.git ./package/helloworld
 git clone https://github.com/vernesong/OpenClash.git ./package/lean/luci-app-openclash
