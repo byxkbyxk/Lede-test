@@ -24,3 +24,5 @@ sed -i "s/OpenWrt /${Author} compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt 
 # git clone https://github.com/destan19/OpenAppFilter.git ./package/OpenAppFilter
 # git clone https://github.com/fw876/helloworld.git ./package/helloworld
 # git clone https://github.com/vernesong/OpenClash.git ./package/lean/luci-app-openclash
+git clone https://github.com/kenzok8/openwrt-packages.git ./package/lean/openwrt-packages
+git clone https://github.com/kenzok8/small.git ./package/lean/small
