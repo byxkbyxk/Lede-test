@@ -18,6 +18,7 @@
 sed -i 's/192.168.1.1/192.168.88.1/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collections/luci/Makefile
 sed -i "s/OpenWrt /${Author} compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
+
 git clone https://github.com/sirpdboy/luci-app-advanced.git ./package/lean/luci-app-advanced
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git ./package/luci-theme-infinityfreedom
 git clone https://github.com/destan19/OpenAppFilter.git ./package/OpenAppFilter
